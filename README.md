@@ -1,6 +1,6 @@
-A simple fake news detector app
+# A simple fake news detector app
 
-The input is a news headline, the model is classifier that predicts the class of the news segment i.e fake or real
+The input is a news headline, the model is a classifier that predicts the class of the news segment i.e fake or real
 
 The application can be used for fake news detection in various news sources on the internet. 
 
@@ -9,10 +9,11 @@ The accuracy of the model is 92.7% which is quite impressive. The model can be i
 
 To run this app locally, you need to create a directory first and install the requirements.txt file :
 
-mkdir fakenewsdetectorapp
-cd fakenewsdetectorapp
-pip install -r requirements.txt
+'''mkdir fakenewsdetectorapp'''
+'''cd fakenewsdetectorapp'''
 
-Once the dependancies are installed , you can run the cells or change it to a python script and run it as :
+'''pip install -r requirements.txt'''
 
-python fakedetector.py
+Once the dependencies are installed, you can run the cells or change it to a Python script and run it as :
+
+'''python fakedetector.py'''
