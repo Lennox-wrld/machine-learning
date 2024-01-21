@@ -9,11 +9,12 @@ The accuracy of the model is 92.7% which is quite impressive. The model can be i
 
 To run this app locally, you need to create a directory first and install the requirements.txt file :
 
-'''mkdir fakenewsdetectorapp'''
-'''cd fakenewsdetectorapp'''
+```mkdir fakenewsdetectorapp```
 
-'''pip install -r requirements.txt'''
+```cd fakenewsdetectorapp```
+
+```pip install -r requirements.txt```
 
 Once the dependencies are installed, you can run the cells or change it to a Python script and run it as :
 
-'''python fakedetector.py'''
+```python fakedetector.py```
